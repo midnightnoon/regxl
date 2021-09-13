@@ -1,0 +1,49 @@
+{
+  "name": "regxl",
+  "version": "1.0.0",
+  "description": "Regular Expression Language",
+  "module": "output/regxl.js",
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midnightnoon/regxl.git"
+  },
+  "keywords": [
+    "RegExp",
+    "RegXL",
+    "Regular",
+    "Expressions"
+  ],
+  "author": "midnightnoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/midnightnoon/regxl/issues"
+  },
+  "homepage": "https://github.com/midnightnoon/regxl#readme",
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  },
+  "eslintConfig": {
+	"extends": "eslint:recommended",
+	"parserOptions": {
+		"ecmaVersion": "next",
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"env": {
+		"shared-node-browser": true,
+		"mocha": true
+	},
+	"rules": {
+		"indent": [
+			"error",
+			"tab"
+		]
+	}
+}
+}
